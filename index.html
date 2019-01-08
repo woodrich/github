@@ -1,0 +1,15 @@
+<script>
+var engine = function(){
+
+  return {
+     start : function(){ console.log("engine started");},
+     stop : function(){ console.log("engine stop");},
+     fuel : { type : "diesel"}
+  }
+}
+
+var otto = new engine();
+otto.start();
+
+
+</script>
